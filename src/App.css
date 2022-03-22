@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+@import 'bootstrap/dist/css/bootstrap.css';
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+* {
+  font: "Nova Square", cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: #FF6F1E !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-secondary {
+  --bs-bg-opacity: 1;
+  background-color: #2A9D8F !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: #264653 !important;
 }
 
-.App-link {
-  color: #61dafb;
+* {
+  margin: 0 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */
