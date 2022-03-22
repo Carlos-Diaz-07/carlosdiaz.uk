@@ -18,6 +18,7 @@
     "reactstrap": "^9.0.1",
     "redux": "^4.1.2",
     "redux-thunk": "^2.4.1",
+    "sass": "^1.49.9",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.18"
   },
@@ -25,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "style": "sass src/styles/application.scss src/App.css"
   },
   "eslintConfig": {
     "extends": [
