@@ -4,23 +4,48 @@
   font: "Nova Square", cursive;
 }
 
-.bg-primary {
-  --bs-bg-opacity: 1;
-  background-color: #FF6F1E !important;
+.navbar {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  background-color: rgba(38, 70, 83, 0.75);
 }
 
-.bg-secondary {
-  --bs-bg-opacity: 1;
-  background-color: #2A9D8F !important;
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
 }
 
-.bg-dark {
-  --bs-bg-opacity: 1;
-  background-color: #264653 !important;
+.nav-link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #FF6F1E;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  text-decoration: none;
 }
 
+.nav-item {
+  margin-right: 35px;
+  margin-left: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-toggler {
+  color: #264653;
+}
 * {
-  margin: 0 !important;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #264653;
+  margin: 0;
+  font-family: "Nova Square", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*# sourceMappingURL=App.css.map */

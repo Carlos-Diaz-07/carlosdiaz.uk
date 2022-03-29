@@ -1,1 +1,33 @@
+.navbar {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  background-color: $see-through-body-color;
+}
 
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+  margin-left: ($spacer * 4);
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: $primary;
+  filter: $text-dropshadow;
+  text-decoration: none;
+}
+
+.nav-item {
+  margin-right: ($spacer * 7);
+  margin-left: ($spacer * 7);
+  margin-top: $spacer * 2;
+  margin-bottom: $spacer * 2;
+}
+
+.navbar-toggler {
+  color: $background-color;
+  span {
+    // background-color: aliceblue;
+  }
+}

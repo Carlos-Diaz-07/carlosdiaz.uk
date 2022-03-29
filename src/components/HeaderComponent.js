@@ -27,7 +27,7 @@ class Header extends Component {
 
   render() {
     return (
-      <Navbar color="dark" expand="md">
+      <Navbar expand="md">
         <NavbarBrand>
           <img src='assets/images/logo.svg' alt='Carlos Diaz portfolio' />
         </NavbarBrand>

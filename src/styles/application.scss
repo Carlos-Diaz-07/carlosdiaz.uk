@@ -10,4 +10,13 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: $body-bg;
+  margin: 0;
+  font-family: 'Nova Square', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
