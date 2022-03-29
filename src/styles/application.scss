@@ -3,6 +3,7 @@
 @import "config/colors";
 @import "config/fonts";
 @import "config/bootstrap_variables";
+@import "font-awesome/css/font-awesome.min.css";
 
 // Your CSS partials
 @import "components/navbar";
@@ -19,4 +20,11 @@ body {
   font-family: 'Nova Square', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.primary {
+  color: $primary;
+  background-color: $primary;
+  background-image: $primary;
+  background: $primary;
 }

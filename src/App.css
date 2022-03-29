@@ -1,5 +1,6 @@
 @import 'bootstrap/dist/css/bootstrap.css';
 @import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+@import "font-awesome/css/font-awesome.min.css";
 * {
   font: "Nova Square", cursive;
 }
@@ -13,6 +14,7 @@
   margin: 0;
   padding: 0;
   margin-left: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
 .nav-link {
@@ -27,13 +29,17 @@
 .nav-item {
   margin-right: 35px;
   margin-left: 35px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .navbar-toggler {
-  color: #264653;
+  color: #FF6F1E;
 }
+.navbar-toggler span {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +52,13 @@ body {
   font-family: "Nova Square", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.primary {
+  color: #FF6F1E;
+  background-color: #FF6F1E;
+  background-image: #FF6F1E;
+  background: #FF6F1E;
 }
 
 /*# sourceMappingURL=App.css.map */

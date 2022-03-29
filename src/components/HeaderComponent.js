@@ -29,9 +29,9 @@ class Header extends Component {
     return (
       <Navbar expand="md">
         <NavbarBrand>
-          <img src='assets/images/logo.svg' alt='Carlos Diaz portfolio' />
+          <img src='assets/images/whole-logo.svg' alt='Carlos Diaz portfolio' />
         </NavbarBrand>
-        <NavbarToggler onClick={this.toggleNav} />
+        <NavbarToggler className="fa fa-bars" onClick={this.toggleNav} />
         <Collapse isOpen={this.state.isNavOpen} navbar className="justify-content-end">
           <Nav
             navbar

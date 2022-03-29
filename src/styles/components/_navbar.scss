@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   margin-left: ($spacer * 4);
+  filter: $box-dropshadow;
 }
 
 .nav-link {
@@ -21,13 +22,13 @@
 .nav-item {
   margin-right: ($spacer * 7);
   margin-left: ($spacer * 7);
-  margin-top: $spacer * 2;
-  margin-bottom: $spacer * 2;
+  margin-top: $spacer;
+  margin-bottom: $spacer;
 }
 
 .navbar-toggler {
-  color: $background-color;
+  color: $primary;
   span {
-    // background-color: aliceblue;
+    display: none;
   }
 }
