@@ -1,10 +1,13 @@
-import Main from "./components/MainComponent";
+import Header from "./components/HeaderComponent";
+import { FirstSection } from "./components/FirstSectionComponent";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Main />
+      <Header />
+      <FirstSection />
+      <FirstSection />
     </div>
   );
 }

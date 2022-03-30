@@ -28,7 +28,7 @@ class Header extends Component {
 
   render() {
     return (
-      <Navbar expand="md">
+      <Navbar expand="md" className="sticky-top">
         <NavbarBrand>
           <LogoSpinner />
         </NavbarBrand>

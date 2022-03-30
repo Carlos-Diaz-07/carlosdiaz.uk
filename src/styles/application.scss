@@ -7,11 +7,20 @@
 
 // Your CSS partials
 @import "components/navbar";
+@import "components/first_section";
 
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
+
+.App {
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
 }
 
 body {
@@ -28,3 +37,19 @@ body {
   background-image: $primary;
   background: $primary;
 }
+
+h1 {
+  color: $white;
+}
+
+h2 {
+  color: $secondary;
+}
+
+h3 {
+  color: $primary;
+}
+
+p {
+  color: $secondary;
+  }

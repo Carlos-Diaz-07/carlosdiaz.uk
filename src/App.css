@@ -40,10 +40,22 @@
   display: none;
 }
 
+#first-section {
+  height: 90vh;
+}
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
+
+.App {
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
 }
 
 body {
@@ -59,6 +71,22 @@ body {
   background-color: #FF6F1E;
   background-image: #FF6F1E;
   background: #FF6F1E;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #2A9D8F;
+}
+
+h3 {
+  color: #FF6F1E;
+}
+
+p {
+  color: #2A9D8F;
 }
 
 /*# sourceMappingURL=App.css.map */

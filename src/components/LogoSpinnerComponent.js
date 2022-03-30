@@ -9,8 +9,14 @@ const pos = () => {
     return ({ x: "43vw", y: "45vh" })
   else if (window.innerWidth > 440)
     return ({ x: "40vw", y: "45vh" })
-  else
+  else if (window.innerWidth > 400)
     return ({ x: "37vw", y: "45vh" })
+  else if (window.innerWidth > 380)
+    return ({ x: "36vw", y: "45vh" })
+  else if (window.innerWidth > 350)
+    return ({ x: "34vw", y: "45vh" })
+  else
+    return ({ x: "32vw", y: "45vh" })
 }
 
 export const LogoSpinner = () => (
