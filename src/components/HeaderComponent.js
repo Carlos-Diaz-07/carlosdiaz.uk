@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import {
-  Navbar, NavbarBrand, Nav, NavLink, NavbarToggler, Collapse, NavItem, Jumbotron,
-  Button, Modal, ModalHeader, ModalBody,
-  Form, FormGroup, Input, Label
+  LogoSpinner
+} from "./LogoSpinnerComponent";
+import {
+  Navbar, NavbarBrand, Nav, NavLink, NavbarToggler, Collapse, NavItem
 } from 'reactstrap';
 
 class Header extends Component {
@@ -29,7 +30,7 @@ class Header extends Component {
     return (
       <Navbar expand="md">
         <NavbarBrand>
-          <img src='assets/images/whole-logo.svg' alt='Carlos Diaz portfolio' />
+          <LogoSpinner />
         </NavbarBrand>
         <NavbarToggler className="fa fa-bars" onClick={this.toggleNav} />
         <Collapse isOpen={this.state.isNavOpen} navbar className="justify-content-end">
