@@ -6,8 +6,10 @@
 @import "font-awesome/css/font-awesome.min.css";
 
 // Your CSS partials
+@import "components/button";
 @import "components/navbar";
 @import "components/first_section";
+@import "components/social_side_bar";
 
 * {
   margin: 0;
@@ -42,11 +44,11 @@ h1 {
   color: $white;
 }
 
-h2 {
+h3 {
   color: $secondary;
 }
 
-h3 {
+h4 {
   color: $primary;
 }
 
