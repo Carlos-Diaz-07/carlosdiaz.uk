@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import {
-  LogoSpinner
-} from "./LogoSpinnerComponent";
+import { motion } from "framer-motion"
 import {
   Navbar, NavbarBrand, Nav, NavLink, NavbarToggler, Collapse, NavItem
 } from 'reactstrap';
@@ -9,35 +7,41 @@ import {
 export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
-    return (
-      <Navbar expand="md" className="sticky-top">
+  return (
+    <Navbar expand="md" className="sticky-top">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 2.75, duration: 1, type: "tween" }}
+      >
         <NavbarBrand>
-          <LogoSpinner />
+          <img src='assets/images/whole-logo.svg' alt='Carlos Diaz portfolio' />
         </NavbarBrand>
-        <NavbarToggler className="fa fa-bars" onClick={() => setIsNavOpen( !isNavOpen )} />
-        <Collapse isOpen={isNavOpen} navbar className="justify-content-end">
-          <Nav
-            navbar
-            fill
-          >
-            <NavItem>
-              <NavLink href="">
-                About
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="">
-                Work
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="">
-                Contact
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
+      </motion.div>
+      <NavbarToggler className="fa fa-bars" onClick={() => setIsNavOpen(!isNavOpen)} />
+      <Collapse isOpen={isNavOpen} navbar className="justify-content-end">
+        <Nav
+          navbar
+          fill
+        >
+          <NavItem>
+            <NavLink href="">
+              About
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="">
+              Work
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="">
+              Contact
+            </NavLink>
+          </NavItem>
+        </Nav>
+      </Collapse>
 
-      </Navbar>
-    )
+    </Navbar>
+  )
 }

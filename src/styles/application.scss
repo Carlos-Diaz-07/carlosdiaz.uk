@@ -10,6 +10,7 @@
 @import "components/navbar";
 @import "components/first_section";
 @import "components/social_side_bar";
+@import "components/spinner_logo";
 
 * {
   margin: 0;
@@ -40,12 +41,20 @@ body {
   background: $primary;
 }
 
+.text-shadow {
+  filter: $text-dropshadow;
+}
+
 h1 {
   color: $white;
 }
 
-h3 {
+h2 {
   color: $secondary;
+}
+
+h3 {
+  color: $primary;
 }
 
 h4 {
