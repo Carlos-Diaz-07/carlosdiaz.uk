@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from 'react';
 import {
   LogoSpinner
 } from "./LogoSpinnerComponent";
@@ -6,34 +6,16 @@ import {
   Navbar, NavbarBrand, Nav, NavLink, NavbarToggler, Collapse, NavItem
 } from 'reactstrap';
 
-class Header extends Component {
+export const Header = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
-  constructor(props) {
-    super(props);
-
-    this.toggleNav = this.toggleNav.bind(this);
-
-    this.state = {
-      isNavOpen: false,
-    };
-
-  }
-
-  toggleNav() {
-    console.log("happens" + this.state.isNavOpen);
-    this.setState({
-      isNavOpen: !this.state.isNavOpen
-    });
-  };
-
-  render() {
     return (
       <Navbar expand="md" className="sticky-top">
         <NavbarBrand>
           <LogoSpinner />
         </NavbarBrand>
-        <NavbarToggler className="fa fa-bars" onClick={this.toggleNav} />
-        <Collapse isOpen={this.state.isNavOpen} navbar className="justify-content-end">
+        <NavbarToggler className="fa fa-bars" onClick={() => setIsNavOpen( !isNavOpen )} />
+        <Collapse isOpen={isNavOpen} navbar className="justify-content-end">
           <Nav
             navbar
             fill
@@ -58,7 +40,4 @@ class Header extends Component {
 
       </Navbar>
     )
-  }
 }
-
-export default Header

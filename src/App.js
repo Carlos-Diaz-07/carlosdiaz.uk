@@ -1,4 +1,4 @@
-import Header from "./components/HeaderComponent";
+import { Header } from "./components/HeaderComponent";
 import { FirstSection } from "./components/FirstSectionComponent";
 import { SocialSideBar } from "./components/SocialSideBar";
 import './App.css';
