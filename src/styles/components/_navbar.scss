@@ -17,6 +17,9 @@
   color: $primary;
   filter: $text-dropshadow;
   text-decoration: none;
+  &:hover {
+  color: $secondary;
+  }
 }
 
 .nav-item {
