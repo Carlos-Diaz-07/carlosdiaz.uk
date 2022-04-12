@@ -57,8 +57,15 @@
   display: none;
 }
 
-#first-section {
+.section {
   height: 90vh;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  list-style-type: circle;
 }
 
 .social-bar {
@@ -139,8 +146,24 @@ h4 {
   color: #FF6F1E;
 }
 
+h5 {
+  color: white;
+  margin: 0;
+}
+
+hr {
+  border: 1px solid #FF6F1E;
+  margin: 0 0 10px 0;
+  width: 35%;
+  background-color: #FF6F1E;
+}
+
 p {
   color: #2A9D8F;
+}
+
+.text-color-primary {
+  color: #FF6F1E;
 }
 
 /*# sourceMappingURL=App.css.map */

@@ -7,11 +7,23 @@ import {
 
 export const AboutMeSection = () => {
   return (
-    <Container className="col-10 col-sm-8 col-md-6 d-flex flex-column align-items-left justify-content-center" id="first-section">
-      <h4>Hi, my name is</h4>
-      <h1>Carlos Diaz</h1>
-      <h3>I build things for the web</h3>
-      <p className="text-justify">alotof words all here, chlling out again and again alotof words all here, chlling out again and again alotof words all here, chlling out again and againalotof words all here, chlling out again and again alotof words all here, chlling out again and again</p>
-      <Button href="mailto:diazmelian.carlos@gmail.com" className='col-sm-6 col-md-4 my-btn-primary' color="">Get In Touch</Button>
+    <Container className="col-10 col-sm-8 col-md-6 d-flex flex-column align-items-left justify-content-center section">
+      <h5 className='text-shadow'>About Me</h5>
+      <hr />
+      <p className="text-justify">alotof words all her again and again alotof words all here, chlling out again and again alotof words all here, chlling out again and againalotof words all here, chlling out again and again alotof words all here, chlling out again and again </p>
+      <p>alotof words all here, chlling out again anwords all here, chlling out again and again alotof words all here, chlling out again and againalotof words all here, chlling out again and again alotof words all here, chlling out again and again </p>
+      <p>alotof words all here, chlling out again ahlling out again and again alotof words all here, chlling out again and againalotof words all here, chlling out again and again alotof words all here, chlling out again and again </p><p>Some Technologies that I use: Javascript React Gatsby NodeJs</p>
+      <ul class="list-group list-group-horizontal text-center">
+        <li class="list-group-item flex-fill text-color-primary">An item</li>
+        <li class="list-group-item flex-fill text-color-primary">A second item</li>
+      </ul>
+      <ul class="list-group  list-group-horizontal-sm text-center">
+        <li class="list-group-item flex-fill text-color-primary">An item</li>
+        <li class="list-group-item flex-fill text-color-primary">A second item</li>
+      </ul>
+      <ul class="list-group list-group-horizontal-md text-center">
+        <li class="list-group-item flex-fill text-color-primary">An item</li>
+        <li class="list-group-item flex-fill text-color-primary">A second item</li>
+      </ul>
     </Container>)
 }

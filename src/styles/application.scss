@@ -8,7 +8,7 @@
 // Your CSS partials
 @import "components/button";
 @import "components/navbar";
-@import "components/first_section";
+@import "components/section";
 @import "components/social_side_bar";
 @import "components/spinner_logo";
 
@@ -61,6 +61,22 @@ h4 {
   color: $primary;
 }
 
+h5 {
+  color: $white;
+  margin: 0;
+}
+
+hr {
+  border: 1px solid $primary;
+  margin: 0 0 10px 0;
+  width: 35%;
+  background-color: $primary;
+}
+
 p {
   color: $secondary;
   }
+
+.text-color-primary {
+  color: $primary;
+}
