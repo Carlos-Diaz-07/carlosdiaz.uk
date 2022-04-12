@@ -119,15 +119,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.primary {
-  color: #FF6F1E;
-  background-color: #FF6F1E;
-  background-image: #FF6F1E;
-  background: #FF6F1E;
-}
-
 .text-shadow {
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.text-color-primary {
+  color: #FF6F1E;
 }
 
 h1 {
@@ -151,19 +148,15 @@ h5 {
   margin: 0;
 }
 
+p {
+  color: #2A9D8F;
+}
+
 hr {
   border: 1px solid #FF6F1E;
   margin: 0 0 10px 0;
   width: 35%;
   background-color: #FF6F1E;
-}
-
-p {
-  color: #2A9D8F;
-}
-
-.text-color-primary {
-  color: #FF6F1E;
 }
 
 /*# sourceMappingURL=App.css.map */

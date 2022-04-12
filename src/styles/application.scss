@@ -34,15 +34,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.primary {
-  color: $primary;
-  background-color: $primary;
-  background-image: $primary;
-  background: $primary;
-}
-
 .text-shadow {
   filter: $text-dropshadow;
+}
+
+.text-color-primary {
+  color: $primary;
 }
 
 h1 {
@@ -66,17 +63,13 @@ h5 {
   margin: 0;
 }
 
+p {
+  color: $secondary;
+  }
+
 hr {
   border: 1px solid $primary;
   margin: 0 0 10px 0;
   width: 35%;
   background-color: $primary;
-}
-
-p {
-  color: $secondary;
-  }
-
-.text-color-primary {
-  color: $primary;
 }
