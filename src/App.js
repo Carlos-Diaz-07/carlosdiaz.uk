@@ -1,6 +1,7 @@
 import { Header } from "./components/HeaderComponent";
 import { FirstSection } from "./components/FirstSectionComponent";
 import { AboutMeSection } from "./components/AboutMeComponent";
+import { ContactMeSection } from "./components/ContactMeComponent";
 import { SocialSideBar } from "./components/SocialSideBar";
 import { motion } from "framer-motion"
 import './App.css';
@@ -19,6 +20,7 @@ function App() {
         <SocialSideBar />
         <FirstSection />
         <AboutMeSection />
+        <ContactMeSection />
 
       </motion.div>
     </div>
