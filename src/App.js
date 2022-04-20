@@ -2,7 +2,8 @@ import { Header } from "./components/HeaderComponent";
 import { FirstSection } from "./components/FirstSectionComponent";
 import { AboutMeSection } from "./components/AboutMeComponent";
 import { ContactMeSection } from "./components/ContactMeComponent";
-import { SocialSideBar } from "./components/SocialSideBar";
+import { SocialSideBar } from "./components/SocialSideBarComponent";
+import { WorkSection } from "./components/WorkComponent";
 import { motion } from "framer-motion"
 import './App.css';
 import { LogoSpinner } from "./components/LogoSpinnerComponent";
@@ -20,6 +21,7 @@ function App() {
         <SocialSideBar />
         <FirstSection />
         <AboutMeSection />
+        <WorkSection />
         <ContactMeSection />
 
       </motion.div>

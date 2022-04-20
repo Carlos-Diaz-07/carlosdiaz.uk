@@ -30,7 +30,7 @@ export const Header = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="">
+            <NavLink href="#work">
               Work
             </NavLink>
           </NavItem>

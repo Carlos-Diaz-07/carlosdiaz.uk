@@ -1,0 +1,28 @@
+.custom-card {
+  position: relative;
+  display: flex;
+  // flex-direction: row
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  // background-clip: border-box;
+  // border: 1px solid rgba(0, 0, 0, 0.125);
+  // border-radius: 0.25rem;
+}
+
+.card-title {
+  color: $white;
+}
+.card-text-box {
+  background: rgba($body-bg, 0.75);
+  width: 60%;
+  height: 60%;
+}
+
+.card-icon {
+  color: $primary;
+  font-size: x-large;
+  &:hover {
+    color: $secondary;
+  }
+}
