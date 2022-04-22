@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export const SocialSideBar = () => {
   return (
     <div className='social-bar align-items-center d-none d-md-flex flex-column'>

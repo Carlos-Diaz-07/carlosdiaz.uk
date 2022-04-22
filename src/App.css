@@ -105,9 +105,9 @@
   position: relative;
   display: flex;
   max-width: 80%;
-  word-wrap: break-word;
   background-color: transparent;
-  transition: max-width 0.5s;
+  transition: max-width 0.75s;
+  min-height: 300px;
 }
 .custom-card:hover {
   max-width: 82%;
