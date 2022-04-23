@@ -20,7 +20,7 @@ export const CustomCard = ({ textSide }) => {
       </div>)
   else {
     return (
-      <div className="custom-card mb-5" color="transparent">
+      <div className="custom-card mb-5 align-self-end" color="transparent">
         <img className='card-img ' src="assets/images/spotify-logo.jpg" alt="spotify logo" />
         <div className='card-text-box position-absolute d-flex flex-column top-50 start-0 translate-middle'>
           <p className='card-title text-start w-100'>
