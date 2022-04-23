@@ -17,24 +17,23 @@ export const FooterSection = () => {
           stars: stargazers_count,
           forks: forks_count,
         });
-        console.log(json)
       })
       .catch(e => console.error(e));
   }, []);
 
 
   return (
-    <Container className="col-10 col-sm-8 col-md-6 d-flex justify-content-center pb-5">
+    <Container className="col-10 col-sm-8 col-md-6 d-flex justify-content-center pt-5 pb-5">
       <a className='footer-repo-link' href="https://github.com/carlos-diaz-07/carlosdiaz.uk">
         <div>Designed &amp; Built by Carlos Diaz</div>
         <div className='d-flex justify-content-center'>
           <span>
-            <i class="fa fa-star-o" aria-hidden="true"></i>
-            <span>{githubInfo.stars.toLocaleString()}</span>
+            <i className="fa fa-star-o" aria-hidden="true"></i>
+            <span>{githubInfo.stars}</span>
           </span>
           <span className='ms-3'>
-            <i class="fa fa-code-fork" aria-hidden="true"></i>
-            <span>{githubInfo.forks.toLocaleString()}</span>
+            <i className="fa fa-code-fork" aria-hidden="true"></i>
+            <span>{githubInfo.forks}</span>
           </span>
         </div>
       </a>

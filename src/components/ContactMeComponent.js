@@ -7,7 +7,7 @@ import {
 
 export const ContactMeSection = () => {
   return (
-    <Container className="col-10 col-sm-8 col-md-6 d-flex flex-column align-items-left justify-content-center section" id="contact-me">
+    <Container className="col-10 col-sm-8 col-md-6 d-flex flex-column align-items-left justify-content-center section" id="contact-me-section">
       <h5 className='text-shadow'>Contact Me</h5>
       <hr />
       <p className="text-justify">

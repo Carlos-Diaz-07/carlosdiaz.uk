@@ -1,3 +1,4 @@
+
 .custom-card {
   position: relative;
   display: flex;
@@ -17,13 +18,14 @@
 .card-title {
   color: $white;
   position: absolute;
-  font-size:medium;
+  font-size: medium;
   right: 0;
   top: -25px;
   padding: 0;
   margin: 0;
 }
 .card-text-box {
+  position: absolute;
   background: rgba($body-bg, 0.75);
   font-size: small;
   width: 60%;
@@ -35,12 +37,52 @@
   &:hover {
     height: 75%;
   }
+  transform: translate(-50%, -50%);
+  top: 50%;
 }
 
 .card-icon {
   color: $primary;
   font-size: x-large;
+  padding-bottom: 3%;
   &:hover {
     color: $secondary;
+  }
+}
+
+@media (max-width: 950px) {
+  .custom-card {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-card {
+    // position: relative;
+    // display: block;
+    background-color: transparent;
+    background-image: url("/public/assets/images/spotify-logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100px;
+    max-width: 100%;
+  }
+
+  .card-img {
+    display: none;
+  }
+
+  .card-text-box {
+    position:initial;
+    background: rgba($body-bg, 0.75);
+    font-size: small;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+    border-top: solid 1.5px $primary;
+    transform: none;
+    top: 0;
   }
 }

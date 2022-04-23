@@ -25,17 +25,17 @@ export const Header = () => {
           fill
         >
           <NavItem>
-            <NavLink href="#about-me">
+            <NavLink href="#about-me-section">
               About
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#work">
+            <NavLink href="#work-section">
               Work
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#contact-me">
+            <NavLink href="#contact-me-section">
               Contact
             </NavLink>
           </NavItem>
