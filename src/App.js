@@ -7,6 +7,7 @@ import { WorkSection } from "./components/WorkComponent";
 import { motion } from "framer-motion"
 import './App.css';
 import { LogoSpinner } from "./components/LogoSpinnerComponent";
+import { FooterSection } from "./components/FooterComponent";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <AboutMeSection />
         <WorkSection />
         <ContactMeSection />
-
+        <FooterSection />
       </motion.div>
     </div>
   );

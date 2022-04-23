@@ -9,6 +9,8 @@ export const WorkSection = () => {
       <hr />
       <CustomCard textSide={"right"}/>
       <CustomCard textSide={"left"} />
+      <CustomCard textSide={"right"} />
+      <CustomCard textSide={"left"} />
 
     </Container>)
 }

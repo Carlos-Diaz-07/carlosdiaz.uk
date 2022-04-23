@@ -143,6 +143,11 @@
   color: #2A9D8F;
 }
 
+.footer-repo-link {
+  text-decoration: none;
+  color: #2A9D8F;
+}
+
 * {
   margin: 0;
   padding: 0;
