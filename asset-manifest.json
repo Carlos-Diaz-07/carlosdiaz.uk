@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.54b8eee9.css",
-    "main.js": "/static/js/main.e76307d7.js",
+    "main.css": "/static/css/main.e46badbd.css",
+    "main.js": "/static/js/main.bf63df63.js",
     "static/js/787.f8cdfe47.chunk.js": "/static/js/787.f8cdfe47.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/spotify-logo.jpg": "/static/media/spotify-logo.0e8951ca886ceb73d572.jpg",
@@ -10,12 +10,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/index.html",
-    "main.54b8eee9.css.map": "/static/css/main.54b8eee9.css.map",
-    "main.e76307d7.js.map": "/static/js/main.e76307d7.js.map",
+    "main.e46badbd.css.map": "/static/css/main.e46badbd.css.map",
+    "main.bf63df63.js.map": "/static/js/main.bf63df63.js.map",
     "787.f8cdfe47.chunk.js.map": "/static/js/787.f8cdfe47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54b8eee9.css",
-    "static/js/main.e76307d7.js"
+    "static/css/main.e46badbd.css",
+    "static/js/main.bf63df63.js"
   ]
 }
