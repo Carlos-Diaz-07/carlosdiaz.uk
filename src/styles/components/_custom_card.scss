@@ -3,9 +3,9 @@
   display: flex;
   max-width: 80%;
   background-color: transparent;
-  transition: max-width 0.75s;
+  transition: max-width 0.25s;
   &:hover {
-    max-width: 82%;
+    max-width: 85%;
   }
   min-height: 300px;
 }
@@ -17,6 +17,7 @@
 .card-title {
   color: $white;
   position: absolute;
+  font-size:medium;
   right: 0;
   top: -25px;
   padding: 0;
@@ -24,11 +25,16 @@
 }
 .card-text-box {
   background: rgba($body-bg, 0.75);
+  font-size: small;
   width: 60%;
   height: 60%;
   max-width: 300px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
   border-top: solid 1.5px $primary;
+  transition: height 0.25s;
+  &:hover {
+    height: 75%;
+  }
 }
 
 .card-icon {
