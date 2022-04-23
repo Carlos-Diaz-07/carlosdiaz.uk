@@ -25,17 +25,17 @@ export const Header = () => {
           fill
         >
           <NavItem>
-            <NavLink href="#about-me-section">
+            <NavLink href="#about-me-section" onClick={() => setIsNavOpen(!isNavOpen)}>
               About
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#work-section">
+            <NavLink href="#work-section" onClick={() => setIsNavOpen(!isNavOpen)}>
               Work
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#contact-me-section">
+            <NavLink href="#contact-me-section" onClick={() => setIsNavOpen(!isNavOpen)}>
               Contact
             </NavLink>
           </NavItem>

@@ -168,6 +168,9 @@
     min-height: 100px;
     max-width: 100%;
   }
+  .custom-card:hover {
+    max-width: 100%;
+  }
 
   .card-img {
     display: none;
@@ -184,6 +187,9 @@
     border-top: solid 1.5px #FF6F1E;
     transform: none;
     top: 0;
+  }
+  .card-text-box:hover {
+    max-width: 100%;
   }
 }
 .footer-repo-link {

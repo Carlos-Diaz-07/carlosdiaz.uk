@@ -67,6 +67,9 @@
     background-position: center;
     min-height: 100px;
     max-width: 100%;
+    &:hover {
+    max-width: 100%;
+  }
   }
 
   .card-img {
@@ -84,5 +87,8 @@
     border-top: solid 1.5px $primary;
     transform: none;
     top: 0;
+    &:hover {
+    max-width: 100%;
+  }
   }
 }
