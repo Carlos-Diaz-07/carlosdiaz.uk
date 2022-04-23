@@ -1,7 +1,8 @@
 .footer-repo-link {
   text-decoration: none;
+  font-size: smaller;
   color: $secondary;
-   &:hover {
+  &:hover {
     color: $primary;
   }
 }

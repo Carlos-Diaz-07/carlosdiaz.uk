@@ -23,7 +23,7 @@ export const FooterSection = () => {
 
 
   return (
-    <Container className="col-10 col-sm-8 col-md-6 d-flex justify-content-center pt-5 pb-5">
+    <Container className="col-10 col-sm-8 col-md-6 d-flex justify-content-center pt-5 pb-5 section">
       <a className='footer-repo-link' href="https://github.com/carlos-diaz-07/carlosdiaz.uk">
         <div>Designed &amp; Built by Carlos Diaz</div>
         <div className='d-flex justify-content-center'>
