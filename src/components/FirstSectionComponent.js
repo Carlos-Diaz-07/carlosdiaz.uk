@@ -7,7 +7,7 @@ import {
 
 export const FirstSection = () => {
   return (
-    <Container className="col-10 col-sm-8 col-md-6 d-flex flex-column align-items-left justify-content-center section first-section">
+    <Container className="col-10 col-sm-8 col-md-6 d-flex flex-column align-items-left justify-content-center section first-section" id="first-section">
       <h4 className='text-shadow'>Hi, my name is</h4>
       <h1 className='text-shadow'>Carlos Diaz</h1>
       <h2 className='text-shadow'>I build things for the web</h2>

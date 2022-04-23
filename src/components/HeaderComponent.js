@@ -14,7 +14,7 @@ export const Header = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 2.75, duration: 1, type: "tween" }}
       >
-        <NavbarBrand>
+        <NavbarBrand href="#first-section">
           <img src='assets/images/whole-logo.svg' alt='Carlos Diaz portfolio' />
         </NavbarBrand>
       </motion.div>
