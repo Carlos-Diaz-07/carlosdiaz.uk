@@ -1,32 +1,17 @@
-import { Header } from "./components/HeaderComponent";
-import { FirstSection } from "./components/FirstSectionComponent";
-import { AboutMeSection } from "./components/AboutMeComponent";
-import { ContactMeSection } from "./components/ContactMeComponent";
-import { SocialSideBar } from "./components/SocialSideBarComponent";
-import { WorkSection } from "./components/WorkComponent";
-import { motion } from "framer-motion"
+import Main from "./components/MainComponent";
 import './App.css';
-import { LogoSpinner } from "./components/LogoSpinnerComponent";
-import { FooterSection } from "./components/FooterComponent";
+import { Provider } from "react-redux";
+import { ConfigureStore } from "./redux/configureStore";
+
+const store = ConfigureStore();
 
 function App() {
   return (
-    <div className="App">
-      <LogoSpinner />
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 3, type: "tween" }}
-      >
-        <Header />
-        <SocialSideBar />
-        <FirstSection />
-        <AboutMeSection />
-        <WorkSection />
-        <ContactMeSection />
-        <FooterSection />
-      </motion.div>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Main />
+      </div>
+    </Provider>
   );
 }
 
