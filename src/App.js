@@ -1,9 +1,7 @@
 import Main from "./components/MainComponent";
 import './App.css';
 import { Provider } from "react-redux";
-import { ConfigureStore } from "./redux/configureStore";
-
-const store = ConfigureStore();
+import { store } from "./redux/configureStore";
 
 function App() {
   return (

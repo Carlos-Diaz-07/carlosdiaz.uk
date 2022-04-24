@@ -1,6 +1,6 @@
 import { PROJECTS } from "../shared/projects";
 
-export const initialState = {
+const initialState = {
   projects: PROJECTS
 };
 
