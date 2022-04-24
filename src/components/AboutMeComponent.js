@@ -7,7 +7,7 @@ import {
 
 export const AboutMeSection = () => {
   return (
-    <Container className="col-10 col-sm-8 col-md-6 d-flex flex-column align-items-left justify-content-center section" id="about-me-section">
+    <Container className="col-10 col-sm-8 col-md-6 pb-5 d-flex flex-column align-items-left justify-content-center section" id="about-me-section">
       <h5 className='text-shadow'>About Me</h5>
       <hr />
       <p className="text-justify">alotof words all her again and again alotof words all here, chlling out again and again alotof words all here, chlling out again and againalotof words all here, chlling out again and again alotof words all here, chlling out again and again </p>

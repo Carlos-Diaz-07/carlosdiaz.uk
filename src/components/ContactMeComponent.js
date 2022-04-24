@@ -14,6 +14,6 @@ export const ContactMeSection = () => {
         alotof words all here, chlling out again and again alotof words all here, chlling out alotof words all here, chlling out again and againalotof words all here, chlling out again and again alotof words all here, chlling out </p>
       <p className="text-center">again and again alotof words all here, chlling out again and again alotof words allotof words all here, chlling out again and again alotof words all here, chlling out again and again
       </p>
-      <Button href="mailto:diazmelian.carlos@gmail.com" className='col-sm-6 col-md-4 my-btn-primary'>Get In Touch</Button>
+      <Button href="mailto:diazmelian.carlos@gmail.com" className='col-12 col-sm-6 col-md-5 my-btn-primary'>Get In Touch</Button>
     </Container >)
 }

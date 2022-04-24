@@ -59,12 +59,12 @@
 
 .section {
   margin-top: 10%;
-  scroll-margin-top: 100px;
+  scroll-margin-top: 225px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 768px) {
   .section {
-    height: fit-content;
+    scroll-margin-top: 100px;
   }
 }
 .list-group-item {
@@ -130,18 +130,14 @@
 .card-text-box {
   position: absolute;
   background: rgba(38, 70, 83, 0.75);
+  transform: translate(-50%, -50%);
   font-size: small;
   width: 60%;
-  height: 60%;
+  height: auto;
   max-width: 300px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
   border-top: solid 1.5px #FF6F1E;
-  transition: height 0.25s;
-  transform: translate(-50%, -50%);
   top: 50%;
-}
-.card-text-box:hover {
-  height: fit-content;
 }
 
 .card-icon {
@@ -190,9 +186,6 @@
     border-top: solid 1.5px #FF6F1E;
     transform: none;
     top: 0;
-  }
-  .card-text-box:hover {
-    max-width: 100%;
   }
 }
 .footer-repo-link {

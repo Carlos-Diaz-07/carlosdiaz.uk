@@ -6,6 +6,11 @@ import {
 
 export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const closeNav = () => {
+    if (window.innerWidth < 768) {
+      setIsNavOpen(!isNavOpen);
+    }
+  }
 
   return (
     <Navbar expand="md" className="sticky-top">
@@ -25,17 +30,17 @@ export const Header = () => {
           fill
         >
           <NavItem>
-            <NavLink href="#about-me-section" onClick={() => setIsNavOpen(!isNavOpen)}>
+            <NavLink href="#about-me-section" onClick={closeNav}>
               About
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#work-section" onClick={() => setIsNavOpen(!isNavOpen)}>
+            <NavLink href="#work-section" onClick={closeNav} >
               Work
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#contact-me-section" onClick={() => setIsNavOpen(!isNavOpen)}>
+            <NavLink href="#contact-me-section" onClick={closeNav}>
               Contact
             </NavLink>
           </NavItem>

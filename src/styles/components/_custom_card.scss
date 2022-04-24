@@ -27,17 +27,13 @@
 .card-text-box {
   position: absolute;
   background: rgba($body-bg, 0.75);
+  transform: translate(-50%, -50%);
   font-size: small;
   width: 60%;
-  height: 60%;
+  height: auto;
   max-width: 300px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
   border-top: solid 1.5px $primary;
-  transition: height 0.25s;
-  &:hover {
-    height: fit-content;
-  }
-  transform: translate(-50%, -50%);
   top: 50%;
 }
 
@@ -61,13 +57,12 @@
 
 @media (max-width: 768px) {
   .custom-card {
-    // position: relative;
-    // display: block;
     background-color: transparent;
     background-image: url("/public/assets/images/spotify-logo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
     min-height: 100px;
     max-width: 100%;
     &:hover {
@@ -90,8 +85,5 @@
     border-top: solid 1.5px $primary;
     transform: none;
     top: 0;
-    &:hover {
-    max-width: 100%;
-  }
   }
 }
