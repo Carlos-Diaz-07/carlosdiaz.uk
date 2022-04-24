@@ -5,7 +5,7 @@ import {
 
 
 
-export const FirstSection = () => {
+export const HeroSection = () => {
   return (
     <Container className="col-10 col-sm-8 col-md-6 d-flex flex-column align-items-left justify-content-center section first-section" id="first-section">
       <h4 className='text-shadow'>Hi, my name is</h4>
