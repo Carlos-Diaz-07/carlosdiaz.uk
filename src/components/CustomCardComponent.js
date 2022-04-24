@@ -2,7 +2,7 @@ export const CustomCard = ({ textSide, project }) => {
   if (textSide === "right")
     return (
       <div className={"custom-card mb-5 align-self-" + (window.innerWidth > 750 ? "start" : "stretch")} color="transparent" key={project.id}>
-        <img className='card-img' src={project.imgUrl}  alt="spotify logo" />
+        <img className='card-img' src={project.imgUrl} alt="spotify logo" />
         <div className={"card-text-box d-flex flex-column top-50 " + ((window.innerWidth > 750) && "start-100")}>
           <p className='card-title text-end'>
             {project.title}
@@ -11,8 +11,12 @@ export const CustomCard = ({ textSide, project }) => {
             {project.description}
           </p>
           <div className='card-icon-wrapper w-100 text-center'>
-            <i href={project.repoUrl} className="fa fa-github card-icon" aria-hidden="true"></i>
-            <i href={project.projectUrl} className="fa fa-external-link card-icon ms-3" aria-hidden="true"></i>
+            <a href={project.repoUrl} target="_blank" rel="noreferrer">
+              <i className="fa fa-github card-icon" aria-hidden="true"></i>
+            </a>
+            <a href={project.projectUrl} target="_blank" rel="noreferrer">
+              <i className="fa fa-external-link card-icon ms-3" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
       </div>)
@@ -28,8 +32,12 @@ export const CustomCard = ({ textSide, project }) => {
             {project.description}
           </p>
           <div className='card-icon-wrapper w-100 text-center'>
-            <i href={project.repoUrl} className="fa fa-github card-icon" aria-hidden="true"></i>
-            <i href={project.projectUrl} className="fa fa-external-link card-icon ms-3" aria-hidden="true"></i>
+            <a href={project.repoUrl} target="_blank" rel="noreferrer">
+              <i className="fa fa-github card-icon" aria-hidden="true"></i>
+            </a>
+            <a href={project.projectUrl} target="_blank" rel="noreferrer">
+              <i className="fa fa-external-link card-icon ms-3" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
       </div>)
