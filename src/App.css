@@ -235,10 +235,12 @@ body {
 
 h1 {
   color: white;
+  font-size: calc(1.375rem + 2.5vw);
 }
 
 h2 {
   color: #2A9D8F;
+  font-size: calc(1.325rem + 2vw);
 }
 
 h3 {
@@ -263,6 +265,10 @@ hr {
   margin: 0 0 10px 0;
   width: 35%;
   background-color: #FF6F1E;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=App.css.map */
